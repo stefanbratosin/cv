@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 20px; /* Space between grid items (sections) */
+}
+
+/* Basic styling for web components - can be enhanced within Shadow DOM */
+cv-header {
+    display: block;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+cv-section {
+    display: block;
+    margin-bottom: 20px;
+}
+
+cv-entry {
+    display: block;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}

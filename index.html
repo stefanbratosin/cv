@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/components.js"></script>
+</head>
+<body>
+    <div class="cv-container">
+        <cv-header
+            name="Your Name"
+            title="Your Professional Title"
+            email="your.email@example.com"
+            phone="+1234567890"
+            linkedin="linkedin.com/in/yourprofile"
+            github="github.com/yourusername">
+        </cv-header>
+
+        <cv-section section-title="Summary">
+            <p>A brief summary about your professional profile, skills, and career goals. Keep it concise and impactful.</p>
+        </cv-section>
+
+        <cv-section section-title="Experience">
+            <cv-entry
+                entry-title="Job Title at Company"
+                period="Month Year - Month Year"
+                location="City, Country">
+                <p>Description of your responsibilities and achievements. Use bullet points for clarity.</p>
+                <ul>
+                    <li>Achievement 1</li>
+                    <li>Achievement 2</li>
+                </ul>
+            </cv-entry>
+            <!-- Add more cv-entry components as needed -->
+        </cv-section>
+
+        <cv-section section-title="Education">
+            <cv-entry
+                entry-title="Degree Name - University Name"
+                period="Month Year - Month Year"
+                location="City, Country">
+                <p>Relevant coursework or thesis information if applicable.</p>
+            </cv-entry>
+            <!-- Add more cv-entry components as needed -->
+        </cv-section>
+
+        <cv-section section-title="Skills">
+            <ul>
+                <li>Skill 1 (e.g., JavaScript, Python)</li>
+                <li>Skill 2 (e.g., Project Management)</li>
+                <li>Skill 3 (e.g., UI/UX Design)</li>
+            </ul>
+        </cv-section>
+    </div>
+</body>
+</html>
