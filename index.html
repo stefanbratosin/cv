@@ -3,56 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="js/components.js"></script>
+    <title>Resume: Software Tester (15 Years Experience)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cv-container">
-        <cv-header
-            name="Your Name"
-            title="Your Professional Title"
-            email="your.email@example.com"
-            phone="+1234567890"
-            linkedin="linkedin.com/in/yourprofile"
-            github="github.com/yourusername">
-        </cv-header>
+    <div class="resume-wrapper">
+        <header>
+            <div class="profile-picture">
+                <img src="/images/poza-profil.jpg" alt="Your Profile Picture">
+            </div>
+            <h1>[Your Full Name]</h1>
+            <p>Lead Software Quality Assurance Engineer</p>
+            <div class="contact-info">
+                <span>[Your Phone Number]</span> &bull;
+                <a href="mailto:[Your Email Address]">[Your Email Address]</a> &bull;
+                <a href="[Your LinkedIn Profile URL]" target="_blank">LinkedIn Profile</a>
+            </div>
+        </header>
 
-        <cv-section section-title="Summary">
-            <p>A brief summary about your professional profile, skills, and career goals. Keep it concise and impactful.</p>
-        </cv-section>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p class="summary-text">
+                Highly accomplished and results-driven Software Tester with 15 years of extensive experience in the full software development lifecycle (SDLC), specializing in quality assurance, test strategy development, and defect management. Proven expertise in leading testing efforts for complex enterprise applications, ensuring robust, scalable, and high-performance software solutions. Adept at both manual and automated testing, performance testing, and security testing across diverse platforms and technologies. Seeking to leverage deep industry knowledge and leadership skills to contribute to a forward-thinking organization.
+            </p>
+        </section>
 
-        <cv-section section-title="Experience">
-            <cv-entry
-                entry-title="Job Title at Company"
-                period="Month Year - Month Year"
-                location="City, Country">
-                <p>Description of your responsibilities and achievements. Use bullet points for clarity.</p>
-                <ul>
-                    <li>Achievement 1</li>
-                    <li>Achievement 2</li>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job-entry">
+                <div class="job-title">Lead Software Quality Assurance Engineer</div>
+                <div class="company-name">[Your Most Recent Company Name]</div>
+                <div class="job-dates">[Start Date] – Present</div>
+                <ul class="job-description">
+                    <li>Led a team of [Number] QA engineers in the end-to-end testing of [mention type of software, e.g., cloud-based SaaS platform], resulting in a [quantifiable achievement, e.g., 25% reduction in post-release critical defects].</li>
+                    <li>Developed and implemented comprehensive test strategies, test plans, and test cases for complex features, integrating Agile/Scrum development cycles.</li>
+                    <li>Designed, developed, and maintained automated test scripts using [mention tools, e.g., Selenium WebDriver, Playwright] with [mention language, e.g., Python, Java], achieving [quantifiable achievement, e.g., 70% test coverage for critical modules].</li>
+                    <li>Managed defect lifecycle from identification and logging to resolution verification using [mention tools, e.g., Jira, Azure DevOps], facilitating efficient communication between development and QA teams.</li>
+                    <li>Pioneered performance testing initiatives using [mention tools, e.g., JMeter], identifying bottlenecks and optimizing application response times by [quantifiable achievement, e.g., 15%].</li>
                 </ul>
-            </cv-entry>
-            <!-- Add more cv-entry components as needed -->
-        </cv-section>
+            </div>
 
-        <cv-section section-title="Education">
-            <cv-entry
-                entry-title="Degree Name - University Name"
-                period="Month Year - Month Year"
-                location="City, Country">
-                <p>Relevant coursework or thesis information if applicable.</p>
-            </cv-entry>
-            <!-- Add more cv-entry components as needed -->
-        </cv-section>
+            <div class="job-entry">
+                <div class="job-title">Senior Software Tester</div>
+                <div class="company-name">[Previous Company Name]</div>
+                <div class="job-dates">[Start Date] – [End Date]</div>
+                <ul class="job-description">
+                    <li>Executed functional, regression, integration, and user acceptance testing for [mention type of software, e.g., e-commerce platform] across web and mobile interfaces.</li>
+                    <li>Contributed to the development of a robust test automation framework, reducing manual testing effort by [quantifiable achievement, e.g., 40%].</li>
+                    <li>Collaborated closely with product managers and developers to clarify requirements, provide timely feedback, and ensure adherence to quality standards.</li>
+                </ul>
+            </div>
 
-        <cv-section section-title="Skills">
-            <ul>
-                <li>Skill 1 (e.g., JavaScript, Python)</li>
-                <li>Skill 2 (e.g., Project Management)</li>
-                <li>Skill 3 (e.g., UI/UX Design)</li>
-            </ul>
-        </cv-section>
+            <div class="job-entry">
+                <div class="job-title">Software Tester</div>
+                <div class="company-name">[Earlier Company Name]</div>
+                <div class="job-dates">[Start Date] – [End Date]</div>
+                <ul class="job-description">
+                    <li>Performed manual testing of new features and bug fixes, documenting test results and reporting defects accurately.</li>
+                    <li>Gained foundational experience in various testing methodologies and tools.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Testing Methodologies</h3>
+                    <ul>
+                        <li>Agile</li>
+                        <li>Scrum</li>
+                        <li>Waterfall</li>
+                        <li>Black Box</li>
+                        <li>White Box</li>
+                        <li>Exploratory Testing</li>
+                        <li>Regression Testing</li>
+                        <li>Integration Testing</li>
+                        <li>System Testing</li>
+                        <li>UAT</li>
+                        <li>Performance Testing</li>
+                        <li>Security Testing</li>
+                        <li>Mobile Testing</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Test Automation Tools</h3>
+                    <ul>
+                        <li>Selenium WebDriver</li>
+                        <li>Playwright</li>
+                        <li>Cypress</li>
+                        <li>TestComplete</li>
+                        <li>Appium</li>
+                        <li>Postman</li>
+                        <li>SoapUI</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>C#</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li>Jira</li>
+                        <li>Azure DevOps</li>
+                        <li>ALM</li>
+                        <li>Bugzilla</li>
+                        <li>TestRail</li>
+                        <li>Git</li>
+                        <li>SVN</li>
+                        <li>Jenkins</li>
+                        <li>GitLab CI/CD</li>
+                        <li>Azure Pipelines</li>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="edu-cert-entry">
+                <div class="degree-title">[Your Degree Name] in [Your Major]</div>
+                <div class="institution-name">[Your University Name], [City, State]</div>
+                <div class="edu-cert-date">[Graduation Year]</div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="edu-cert-entry">
+                <div class="cert-title">ISTQB Certified Tester Advanced Level - Test Manager</div>
+                <div class="cert-org">ISTQB</div>
+            </div>
+            <div class="edu-cert-entry">
+                <div class="cert-title">ISTQB Certified Tester Advanced Level - Test Automation Engineer</div>
+                <div class="cert-org">ISTQB</div>
+            </div>
+            <div class="edu-cert-entry">
+                <div class="cert-title">Certified ScrumMaster (CSM)</div>
+                <div class="cert-org">Scrum Alliance</div>
+            </div>
+        </section>
     </div>
+
+    <footer>
+        <p>&copy; 2025 [Your Full Name]. All rights reserved.</p>
+    </footer>
 </body>
 </html>
